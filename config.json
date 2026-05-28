@@ -1,0 +1,42 @@
+{
+  "onedrive": {
+    "client_id": "YOUR_CLIENT_ID",
+    "client_secret": "YOUR_CLIENT_SECRET",
+    "tenant_id": "common",
+    "scopes": [
+      "Files.Read",
+      "offline_access"
+    ],
+    "xbox_captures_path": "me/drive/special/approot:/Xbox Captures"
+  },
+  "games": {
+    "nba_2k": {
+      "id": "nba_2k",
+      "name": "NBA 2K",
+      "sport": "basketball"
+    },
+    "madden": {
+      "id": "madden",
+      "name": "Madden NFL",
+      "sport": "football"
+    },
+    "ncaa": {
+      "id": "ncaa",
+      "name": "NCAA Football",
+      "sport": "football"
+    }
+  },
+  "vision": {
+    "model": "gemini-2.0-flash",
+    "min_confidence": 0.7,
+    "clarification_threshold": 0.8
+  },
+  "enrichment": {
+    "espn_api_base": "https://site.api.espn.com/apis/site/v2",
+    "poll_interval_minutes": 5
+  },
+  "generation": {
+    "vercel_project": "hermes-3d-worlds",
+    "render_mode": "procedural"
+  }
+}

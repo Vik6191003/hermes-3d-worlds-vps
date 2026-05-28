@@ -1,0 +1,1 @@
+{"screenshot_hash": "test_abc123", "game_type": "nba_2k", "home_team": "Lakers", "away_team": "Celtics", "home_score": 87, "away_score": 82, "game_quarter": "Q3", "time_remaining": "05:32", "game_mode": "PlayNow", "myplayer_name": "LeBron James", "extraction_confidence": 0.92, "processed_at": "2025-01-15T20:00:00Z", "status": "ready_for_enrichment"}

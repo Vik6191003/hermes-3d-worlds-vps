@@ -1,0 +1,73 @@
+{
+  "screenshot_hash": "test_abc123",
+  "game_type": "nba_2k",
+  "extracted": {
+    "screenshot_hash": "test_abc123",
+    "game_type": "nba_2k",
+    "home_team": "Lakers",
+    "away_team": "Celtics",
+    "home_score": 87,
+    "away_score": 82,
+    "game_quarter": "Q3",
+    "time_remaining": "05:32",
+    "game_mode": "PlayNow",
+    "myplayer_name": "LeBron James",
+    "extraction_confidence": 0.92,
+    "processed_at": "2025-01-15T20:00:00Z",
+    "status": "ready_for_enrichment"
+  },
+  "enriched": {
+    "live_scores": {
+      "teams": {},
+      "games": []
+    },
+    "schedule": {
+      "events": []
+    },
+    "player_stats": {
+      "error": "Player not found",
+      "query": "LeBron James"
+    },
+    "news": {
+      "articles": [
+        {
+          "title": "Celtics' Mazzulla named NBA Coach of the Year",
+          "description": "Boston's Joe Mazzulla was named NBA Coach of the Year over finalists J.B. Bickerstaff and Mitch Johnson on Tuesday night, officially wrapping up the league's end-of-season awards schedule.",
+          "link": "https://www.espn.com/nba/story/_/id/48885593/boston-celtics-joe-mazzulla-named-nba-coach-year",
+          "published": "Wed, 27 May 2026 00:52:09 EST",
+          "source": "espn"
+        }
+      ],
+      "count": 1
+    },
+    "weather": {},
+    "enriched_at": "2026-05-27T05:28:10.753196+00:00"
+  },
+  "world_seed_data": {
+    "teams_playing": [
+      "Lakers",
+      "Celtics"
+    ],
+    "game_time": "2026-05-27T05:28:12.327883+00:00",
+    "game_type": "nba_2k",
+    "stadium_conditions": {
+      "weather": {},
+      "home_team": "Lakers",
+      "away_team": "Celtics"
+    },
+    "news_items": [
+      {
+        "title": "Celtics' Mazzulla named NBA Coach of the Year",
+        "description": "Boston's Joe Mazzulla was named NBA Coach of the Year over finalists J.B. Bickerstaff and Mitch Johnson on Tuesday night, officially wrapping up the league's end-of-season awards schedule.",
+        "link": "https://www.espn.com/nba/story/_/id/48885593/boston-celtics-joe-mazzulla-named-nba-coach-year",
+        "published": "Wed, 27 May 2026 00:52:09 EST",
+        "source": "espn"
+      }
+    ],
+    "live_scores": {
+      "teams": {},
+      "games": []
+    }
+  },
+  "processed_at": "2026-05-27T05:28:12.327889+00:00"
+}
